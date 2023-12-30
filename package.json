@@ -2,6 +2,7 @@
   "name": "junlang",
   "displayName": "JunLang",
   "description": "",
+  "publisher": "Jun-Software",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.54.0"
