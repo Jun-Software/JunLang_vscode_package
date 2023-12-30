@@ -1,0 +1,25 @@
+{
+  "name": "junlang",
+  "displayName": "JunLang",
+  "description": "",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "junlang",
+      "aliases": ["junlang", "junlang"],
+      "extensions": [".jun", ".junlang"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "junlang",
+      "scopeName": "source.junlang",
+      "path": "./syntaxes/junlang.tmLanguage.json"
+    }]
+  }
+}

@@ -1,0 +1,36 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "junlang",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.junlang",
+				"match": "\\b(output|wrap|new|set|input|addition|subtraction|multiplication|division|equal|greater|less|equal_or_greater|equal_or_less|not|if|end-if|loop|end-loop)\\b"
+			}, {
+                "name": "comment.line.junlang",
+                "begin": "note",
+                "end": "\n"
+            }]
+		},
+		"strings": {
+			"name": "string.quoted.double.junlang",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.junlang",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.junlang"
+}
