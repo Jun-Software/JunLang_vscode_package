@@ -1,0 +1,11 @@
+{
+    "junlang.loop": {
+        "prefix": "loop",
+        "body": [
+            "loop $1",
+            "$2",
+            "end-loop"
+        ],
+        "description": "`junlang.loop` snippets."
+    }
+}

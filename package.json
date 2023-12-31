@@ -3,12 +3,13 @@
   "displayName": "JunLang",
   "description": "",
   "publisher": "Jun-Software",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.54.0"
   },
   "categories": [
-    "Programming Languages"
+    "Programming Languages",
+    "Snippets"
   ],
   "contributes": {
     "languages": [{
@@ -21,6 +22,16 @@
       "language": "junlang",
       "scopeName": "source.junlang",
       "path": "./syntaxes/junlang.tmLanguage.json"
-    }]
+    }],
+    "snippets": [
+        {
+            "language": "junlang",
+            "path": "./snippets/junlang.if.code-snippets"
+        },
+        {
+            "language": "junlang",
+            "path": "./snippets/junlang.loop.code-snippets"
+        }
+    ]
   }
 }
