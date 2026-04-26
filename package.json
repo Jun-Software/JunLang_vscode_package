@@ -31,6 +31,10 @@
         {
             "language": "junlang",
             "path": "./snippets/junlang.loop.code-snippets"
+        },
+        {
+            "language": "junlang",
+            "path": "./snippets/junlang.func.code-snippets"
         }
     ]
   }
