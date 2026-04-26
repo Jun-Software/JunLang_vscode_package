@@ -13,10 +13,10 @@
         "keywords": {
             "patterns": [{
                 "name": "keyword.control.junlang",
-                "match": "\\b(output|wrap|new|set|input|addition|subtraction|multiplication|division|equal|greater|less|equal_or_greater|equal_or_less|not|if|end-if|loop|end-loop)\\b"
+                "match": "\\b(set|run|out|line|loop|load|in|if|func|end)\\b"
             }, {
                 "name": "comment.line.junlang",
-                "begin": "note",
+                "begin": "#",
                 "end": "\n"
             }]
         },
