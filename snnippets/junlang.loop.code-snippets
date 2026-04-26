@@ -4,7 +4,7 @@
         "body": [
             "loop $1",
             "$2",
-            "end-loop"
+            "end loop"
         ],
         "description": "`junlang.loop` snippets."
     }
