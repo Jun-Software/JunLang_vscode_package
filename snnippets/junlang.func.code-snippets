@@ -1,0 +1,11 @@
+{
+    "junlang.func": {
+        "prefix": "func",
+        "body": [
+            "func $1",
+            "$2",
+            "end func"
+        ],
+        "description": "`junlang.func` snippets."
+    }
+}
